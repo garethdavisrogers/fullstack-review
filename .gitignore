@@ -1,0 +1,18 @@
+# Build
+/dist
+
+# Dependencies
+/node_modules
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs and pids
+pids
+*.pid
+logs
+*.log
