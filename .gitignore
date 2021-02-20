@@ -1,5 +1,5 @@
 # Build
-/dist
+/client/dist/bundle.js
 
 # Dependencies
 /node_modules
