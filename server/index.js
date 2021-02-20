@@ -68,9 +68,8 @@ app.post('/api/mongo/create', (req, res) => {
 
 // Post mysql data
 app.post('/api/mysql', (req, res) => {
-  let {firstName} = req.body;
-  let {lastName} = req.body;
-
+  const {firstName} = req.body;
+  const {lastName} = req.body;
   mysql.query('INSERT INTO people (first_name, last_name) VALUES (?)', [[firstName, lastName]], (err, result) => {
     if (err) {
       res.status(404).send(err);
