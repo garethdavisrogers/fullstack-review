@@ -6,7 +6,7 @@
   - Serving static files
   - Writing api routes
   - Writing database queries
-  This repo can be thought of as a sandbox for testing and exploring various fullstack concepts.
+  > This repo can be thought of as a sandbox for testing and exploring various fullstack concepts.
 
 ## To use this repo: ##
   - Fork and clone the repo
